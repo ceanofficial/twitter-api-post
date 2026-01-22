@@ -1,0 +1,23 @@
+{
+  "name": "x-json-poster",
+  "version": "1.0.0",
+  "description": "Post content from a local JSON file to X (Twitter) using the X API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "twitter",
+    "x-api",
+    "automation",
+    "json",
+    "bot"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "twitter-api-v2": "^1.15.0"
+  }
+}
